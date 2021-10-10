@@ -30,16 +30,17 @@ f = open("README.md", mode="r", encoding="utf-8")
 data=f.readlines()
 f.close()
 
-
 result=""
 flag=0
 for i in data:
-    if i == "<!-- BLOG-POST-LIST:START -->\n":
-        flag = 1
-        result += parsed_data
-        continue
-    elif i == "<!-- BLOG-POST-LIST:END -->\n":
+    if i == "<!-- BLOG-POST-LIST:END -->\n":
+        result+="<!-- BLOG-POST-LIST:END -->\n"
         flag = 0
+        continue
+    if (i == "<!-- BLOG-POST-LIST:START -->\n"):
+        flag = 1
+        result+="<!-- BLOG-POST-LIST:START -->\n"
+        result += parsed_data
         continue
 
     if flag == 0:
