@@ -120,4 +120,4 @@ git config --local user.name "GitHub Action"
 Repository에서 Actions으로 들어가 workfolow/main.yml을 워크플로우로 설정한다.
 
 ## 결과
-[##_Image|kage@b9YHYV/btrquPtLZSO/5I1Yxwkl7slVvBjhdMIPz0/img.png|CDM|1.3|{"originWidth":1900,"originHeight":1032,"style":"alignCenter","filename":"화면 캡처 2022-01-13 010645.png"}_##]
+![Alt text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb9YHYV%2FbtrquPtLZSO%2F5I1Yxwkl7slVvBjhdMIPz0%2Fimg.png)
