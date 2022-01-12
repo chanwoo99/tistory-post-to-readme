@@ -108,12 +108,20 @@ jobs:
 
 ### 2
 #### python run.py
-feed = feedparser.parse("https://chanwooo.tistory.com/rss")에서 주소를 사용자의 티스토리 rss 주소로 바꾼다.
-url="https://raw.githubusercontent.com/chanwoo99/chanwoo99/main/README.md" 에서 주소를 방금 가져온 Repository의 README.md 파일로 해준다.
+'''
+feed = feedparser.parse("https://chanwooo.tistory.com/rss")
+'''
+에서 주소를 사용자의 티스토리 rss 주소로 바꾼다.
+'''
+url="https://raw.githubusercontent.com/chanwoo99/chanwoo99/main/README.md" 
+'''
+에서 주소를 방금 가져온 Repository의 README.md 파일로 해준다.
 
 #### main.yml
+'''
 git config --local user.email "action@gihtub.com"
 git config --local user.name "GitHub Action"
+'''
 본인 것으로 수정한다.
 
 ### 3
